@@ -141,3 +141,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec23e18f78e301847969e4e25cc07f6f, type: 3}
   - {fileID: 21300000, guid: 26e3d2c37e11dba4ba5821fb3071c565, type: 3}
   - {fileID: 21300000, guid: 32b7343d78f84b84db859bac4994f80a, type: 3}
+  UIMngr: {fileID: 0}

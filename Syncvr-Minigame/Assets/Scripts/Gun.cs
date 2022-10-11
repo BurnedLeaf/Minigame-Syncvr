@@ -10,6 +10,8 @@ public class Gun : MonoBehaviour
 
     [SerializeField] Vector3 WaterForce;
 
+    [SerializeField] SoundManager soundManager;
+
     Rigidbody2D rb;
     void Start()
     {
@@ -35,6 +37,8 @@ public class Gun : MonoBehaviour
 
     void Shoot()
     {
+        soundManager.PlaySound();
+
         GameObject Water = Instantiate(WaterPrefab, transform.position, transform.rotation);
         Water.GetComponent<Rigidbody2D>().AddRelativeForce(WaterForce);
 
